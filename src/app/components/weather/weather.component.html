@@ -1,0 +1,29 @@
+<div id="weather-component">
+	<form (ngSubmit)="search()" method="post">
+		<div class="form-group">
+			<input class="form-control" type="text" placeholder="Location" name="city" [(ngModel)]="searchedLocation">
+		</div>
+		<button class="btn btn-primary btn-block" type="submit">Search</button>
+	</form>
+
+	<div id="weather-current">
+		<h1>{{locationWeather.name}}</h1>
+		<div id="weather">
+			<i class="wi wi-cloud big-icon"></i>
+		</div>
+
+		<div id="values" class="row">
+			<div class="col-md-6 col-sm-6 col-xs-6 temperature">
+				<i class="wi wi-thermometer"></i><span>{{locationWeather.currentTemperature}}</span><span>°C</span>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-6 humidity">
+				<i class="wi wi-humidity"></i><span>{{locationWeather.currentHumidity}}</span><span>%</span>
+			</div>
+		</div>
+	</div>
+
+	<app-weather-graph [type]="0"></app-weather-graph>
+	<app-weather-graph [type]="1"></app-weather-graph>
+	<app-weather-graph [type]="2"></app-weather-graph>
+
+</div>

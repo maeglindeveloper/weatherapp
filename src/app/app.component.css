@@ -1,0 +1,17 @@
+/* line 4, ../themes/theme.scss */
+h1, h2, h3 {
+  color: white;
+}
+
+/* line 3, app.component.scss */
+:host {
+  background-color: #34495e;
+}
+
+/* line 7, app.component.scss */
+.big-icon {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+}

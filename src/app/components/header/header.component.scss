@@ -1,0 +1,13 @@
+@import "../../../themes/theme";
+
+:host{
+	display: block;
+	$size: 80px;
+	background-color: $color-primary;
+	border-bottom: 2px solid $color-secondary;
+	height: $size; line-height: $size;
+	color: white;
+
+	text-align: center;
+	vertical-align: middle;
+}

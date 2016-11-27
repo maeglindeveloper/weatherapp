@@ -1,0 +1,27 @@
+{
+  "name": "weatherapplication",
+  "description": "",
+  "main": "",
+  "authors": [
+    "MaeglinBunny <cyril@bunnybank.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "chart.js": "^2.4.0",
+    "font-awesome": "^4.7.0",
+    "compass-mixins": "^1.0.2",
+    "weather-icons": "^2.0.10"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

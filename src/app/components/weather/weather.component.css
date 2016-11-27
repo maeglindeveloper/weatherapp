@@ -1,0 +1,38 @@
+/* line 4, ../../../themes/theme.scss */
+h1, h2, h3 {
+  color: white;
+}
+
+/* line 6, weather.component.scss */
+:host #weather-current {
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 30px;
+}
+/* line 11, weather.component.scss */
+:host #weather-current #weather {
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+/* line 15, weather.component.scss */
+:host #weather-current #values {
+  color: #b9c9d8;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* line 17, weather.component.scss */
+:host #weather-current #values i {
+  font-size: 30px;
+  color: #b9c9d8;
+  margin-right: 10px;
+}
+/* line 28, weather.component.scss */
+:host #weather-chart {
+  margin-top: 30px;
+  background-color: #34495e;
+}
+/* line 33, weather.component.scss */
+:host .weather-tab-button {
+  text-align: center;
+}

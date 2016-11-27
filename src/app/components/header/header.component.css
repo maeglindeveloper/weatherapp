@@ -1,0 +1,16 @@
+/* line 4, ../../../themes/theme.scss */
+h1, h2, h3 {
+  color: white;
+}
+
+/* line 3, header.component.scss */
+:host {
+  display: block;
+  background-color: #34495e;
+  border-bottom: 2px solid #b9c9d8;
+  height: 80px;
+  line-height: 80px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}

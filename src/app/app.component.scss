@@ -1,0 +1,12 @@
+@import "../themes/theme";
+
+:host{
+	background-color: $color-primary;
+}
+
+.big-icon{
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 20px;
+}

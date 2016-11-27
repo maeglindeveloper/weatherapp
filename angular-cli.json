@@ -18,9 +18,15 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+		"../bower_components/bootstrap/dist/css/bootstrap.min.css",
+		"../bower_components/weather-icons/css/weather-icons.min.css",
+		"../bower_components/weather-icons/css/weather-icons-wind.min.css",
+		"../bower_components/font-awesome/css/font-awesome.min.css",
+		"styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+		"../bower_components/chart.js/dist/Chart.js"
+	  ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -41,7 +47,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "prefixInterfaces": false,
     "inline": {
       "style": false,
